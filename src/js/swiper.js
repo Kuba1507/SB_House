@@ -16,3 +16,14 @@ var horizontalSwiper = new Swiper(".horizontalSwiper", {
 		delay: 1500,
 	},
 });
+
+var horizontalSwiper = new Swiper(".horizontalSecondSwiper", {
+	slidesPerView: "2",
+	centeredSlides: false,
+	reverseDirection: true,
+	direction: "vertical",
+	spaceBetween: 15,
+	autoplay: {
+		delay: 1500,
+	},
+});
