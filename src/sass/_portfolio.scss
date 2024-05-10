@@ -128,6 +128,24 @@ body {
 		font-size: 1.8rem;
 	}
 
+	.section-title,
+	.section-title-addition {
+		color: $bg-color;
+		text-align: center;
+	}
+
+	.section-title {
+		margin-top: 0.3em;
+		font-family: "Slabo 13px", sans-serif;
+		font-size: 2.6rem;
+		font-weight: 400;
+		text-transform: uppercase;
+	}
+
+	.section-title-addition {
+		font-family: "Montserrat", sans-serif;
+	}
+
 	.cta-button {
 		margin-top: 2.5em;
 		padding: 0.6em 0;
@@ -247,6 +265,32 @@ body {
 					infinite alternate forwards;
 				animation: bounce-in-top 2s cubic-bezier(0.075, 0.82, 0.165, 1) infinite
 					alternate forwards;
+			}
+		}
+	}
+
+	.about-us {
+		background-color: $section-dark;
+
+		.wrapper {
+			.left-box {
+			}
+
+			.right-box {
+				margin-top: 1.75em;
+
+				&__paragraph {
+					margin-top: 1.5em;
+					font-family: "Montserrat", sans-serif;
+					font-size: 1.6rem;
+					line-height: 1.5;
+					font-weight: 300;
+					color: $bg-color;
+
+					span {
+						font-weight: 600;
+					}
+				}
 			}
 		}
 	}
