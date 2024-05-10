@@ -51,6 +51,15 @@
 				}
 			}
 		}
+
+		.about-us {
+			padding: 3em 2em;
+
+			.decoration-one,
+			.decoration-two {
+				display: block;
+			}
+		}
 	}
 }
 
@@ -63,6 +72,14 @@
 
 		.heading-addition {
 			font-size: 2rem;
+		}
+
+		.section-title {
+			font-size: 3.2rem;
+		}
+
+		.section-title-addition {
+			font-size: 1.8rem;
 		}
 
 		.cta-button {
@@ -169,6 +186,50 @@
 						width: 240px;
 					}
 				}
+			}
+		}
+
+		.about-us {
+			margin-top: 7em;
+
+			.section-title,
+			.section-title-addition {
+				text-align: left;
+			}
+
+			.wrapper {
+				display: flex;
+
+				.left-box {
+					flex: 1;
+				}
+
+				.right-box {
+					flex: 1;
+					margin-top: 0;
+
+					&__paragraph {
+						margin-top: 0;
+						margin-bottom: 1.25em;
+						font-size: 1.7rem;
+
+						&--last {
+							margin-bottom: 0;
+						}
+					}
+				}
+			}
+
+			.decoration-one {
+				width: 400px;
+				height: 400px;
+			}
+
+			.decoration-two {
+				bottom: 15%;
+				right: 5%;
+				width: 300px;
+				height: 300px;
 			}
 		}
 	}
