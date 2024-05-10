@@ -314,6 +314,60 @@ body {
 			height: 250px;
 		}
 	}
+
+	.questions {
+		position: relative;
+		background-image: url("../img/questions-hero.webp");
+		background-size: cover;
+		background-position: center;
+
+		.wrapper {
+			position: relative;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			z-index: 1;
+		}
+
+		&-heading,
+		&-description {
+			font-family: "Montserrat", sans-serif;
+			color: $bg-color;
+			text-align: center;
+		}
+
+		&-heading {
+			font-size: 2.5rem;
+			font-weight: bold;
+		}
+
+		&-description {
+			margin-top: 0.5em;
+		}
+
+		.cta-button {
+			background-color: transparent;
+			border: 1px solid $bg-color;
+			color: $bg-color;
+			transition: border 0.3s, background-color 0.3s, color 0.3s;
+
+			&:hover {
+				border: 1px solid $dark;
+				background-color: $bg-color;
+				color: $dark;
+			}
+		}
+
+		&__shadow {
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			background-color: rgba(0, 0, 0, 0.8);
+			z-index: 0;
+		}
+	}
 }
 
 @keyframes navItemsAnimation {
