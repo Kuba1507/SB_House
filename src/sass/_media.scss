@@ -81,6 +81,29 @@
 				flex-direction: row;
 			}
 		}
+
+		.contact {
+			.container {
+				display: flex;
+				justify-content: space-around;
+				margin-top: 2em;
+			}
+
+			&__text-box {
+				margin: 0;
+				order: 1;
+
+				h3,
+				p {
+					text-align: right;
+				}
+			}
+
+			&__map-box {
+				margin: 0;
+				width: 350px;
+			}
+		}
 	}
 }
 
@@ -267,6 +290,53 @@
 
 			&-description {
 				font-size: 1.8rem;
+			}
+		}
+
+		.contact {
+			.section-title,
+			.section-title-addition {
+				text-align: left;
+			}
+
+			.container {
+				display: flex;
+				justify-content: space-between;
+				margin-top: 4em;
+			}
+
+			&__text-box {
+				margin: 0;
+				order: 0;
+
+				h3,
+				p {
+					text-align: left;
+				}
+
+				h3 {
+					font-size: 2.7rem;
+					margin-bottom: 1em;
+				}
+
+				p {
+					font-size: 1.8rem;
+				}
+
+				p:nth-child(3) {
+					margin-bottom: 1.5em;
+				}
+
+				p:nth-child(5) {
+					margin-bottom: 1.5em;
+				}
+			}
+
+			&__map-box {
+				width: 450px;
+				iframe {
+					height: 380px;
+				}
 			}
 		}
 	}
