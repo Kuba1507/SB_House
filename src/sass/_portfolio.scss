@@ -477,6 +477,28 @@ body {
 	}
 }
 
+.fast-links {
+	display: none;
+	padding: 2em 0;
+	background-color: $footer-dark;
+	border-bottom: 1px solid $bg-color;
+	text-align: center;
+
+	a {
+		margin: 0 1em;
+		padding: 1em;
+		font-family: "Montserrat", sans-serif;
+		font-size: 1.7rem;
+		color: $bg-color;
+		text-decoration: none;
+		transition: color 0.3s;
+
+		&:hover {
+			color: rgb(147, 147, 147);
+		}
+	}
+}
+
 .footer {
 	padding: 1em;
 	font-family: "Montserrat", sans-serif;
@@ -502,7 +524,7 @@ body {
 				height: 30px;
 
 				&--instagram {
-					margin-left: 0.5em;
+					margin-left: 0.75em;
 					width: 35px;
 					height: 35px;
 				}
