@@ -349,15 +349,13 @@
 
 		.offers {
 			&-container {
+				margin-top: 2em;
+
 				&__box {
 					flex-basis: 25%;
 				}
 			}
 		}
-
-		// .gallery {
-
-		// }
 
 		.fast-links {
 			display: block;
