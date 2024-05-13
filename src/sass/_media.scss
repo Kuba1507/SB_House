@@ -1,29 +1,3 @@
-@media screen and (max-width: 800px) {
-	.gallery {
-		&__box {
-			&-row {
-				&-column {
-					flex: 50%;
-					max-width: 50%;
-				}
-			}
-		}
-	}
-}
-
-@media screen and (max-width: 600px) {
-	.gallery {
-		&__box {
-			&-row {
-				&-column {
-					flex: 100%;
-					max-width: 100%;
-				}
-			}
-		}
-	}
-}
-
 @media (min-width: 768px) {
 	.header {
 		.wrapper {
@@ -98,6 +72,13 @@
 
 			.cta-button {
 				margin-top: 2em;
+			}
+		}
+
+		.gallery {
+			&__box {
+				margin-top: 2em;
+				flex-direction: row;
 			}
 		}
 	}
