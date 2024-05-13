@@ -431,6 +431,38 @@ body {
 			}
 		}
 	}
+
+	.contact {
+		background-color: $section-dark;
+		font-family: "Montserrat", sans-serif;
+		color: $bg-color;
+
+		&__text-box {
+			margin-top: 2em;
+
+			h3 {
+				margin-bottom: 0.5em;
+				font-size: 2.2rem;
+			}
+
+			p {
+				font-size: 1.7rem;
+				line-height: 1.5;
+
+				span {
+					font-weight: bold;
+				}
+			}
+
+			p:nth-child(3) {
+				margin-bottom: 1em;
+			}
+
+			p:nth-child(5) {
+				margin-bottom: 1em;
+			}
+		}
+	}
 }
 
 @keyframes navItemsAnimation {
