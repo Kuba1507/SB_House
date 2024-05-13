@@ -15,6 +15,7 @@ html {
 }
 
 body {
+	position: relative;
 	font-size: 1.6rem;
 	background-color: $bg-color;
 }
@@ -597,6 +598,60 @@ body {
 			}
 		}
 	}
+}
+
+.cookie-box {
+	position: fixed;
+	bottom: 0;
+	padding: 1em;
+	width: 100%;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	background-color: white;
+	z-index: 999;
+
+	.container {
+		display: flex;
+
+		img {
+			margin-right: 0.5em;
+			width: 40px;
+			height: 40px;
+		}
+	}
+
+	&__alert,
+	&__button {
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	&__alert {
+		&-privacy {
+			text-decoration: underline;
+			color: $dark;
+		}
+	}
+
+	&__button {
+		margin-top: 1.25em;
+		padding: 0.75em 0;
+		width: 100%;
+		color: $bg-color;
+		background-color: $dark;
+		border: 1px solid transparent;
+		border: none;
+		transition: border 0.3s, background-color 0.3s, color 0.3s;
+		cursor: pointer;
+
+		&:hover {
+			border: 1px solid $dark;
+			background-color: $bg-color;
+			color: $dark;
+		}
+	}
+}
+
+.hide {
+	display: none;
 }
 
 @keyframes navItemsAnimation {
