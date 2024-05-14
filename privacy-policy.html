@@ -4,13 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tu będzie tytuł</title>
-    <meta name="description" content="Tu będzie opis">
+    <title>SB House | Profesjonalne wykończenia wnętrz i remonty</title>
+    <meta name="description"
+        content="Zaufaj SB House - liderowi w branży budowlanej i wykończeniowej. Nasze usługi charakteryzują się precyzją, solidnością i estetyką. Nie czekaj, sprawdź!">
     <link rel="icon" type="image/x-icon" href="dist/img/logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Slabo+13px&display=swap"
         rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="dist/css/style.min.css">
     <link rel="stylesheet" href="dist/css/hamburger.min.css">
@@ -23,7 +25,7 @@
                 <img src="dist/img/logo.webp" alt="Logo firmy SB House">
             </a>
 
-            <button class="hamburger hamburger--stand" type="button">
+            <button class="hamburger hamburger--stand" type="button" title="Przycisk menu rozwijalnego">
                 <span class="hamburger-box">
                     <span class="hamburger-inner"></span>
                 </span>
@@ -43,12 +45,173 @@
                     <li class="nav__menu-item">
                         <a href="#contact" class="nav__menu-item-link nav__menu-item-link--last">Kontakt</a>
                     </li>
+                    <li class="nav__menu-item language">
+                        <a href="#" class="nav__menu-item-link nav__menu-item-link--last language-link">Change language
+                            <img src="dist/img/british-flag.svg" alt="Brytyjska flaga"></a>
+                    </li>
                 </ul>
             </nav>
         </div>
     </header>
     <main class="main">
-        
+        <section class="section privacy">
+            <div class="wrapper">
+                <h1>Polityka prywatności</h1>
+                <h2>1. Informacje ogólne</h2>
+                <ol>
+                    <li>Niniejsza polityka dotyczy Serwisu www, funkcjonującego pod adresem url: sbhouse.pl</li>
+                    <li>Operatorem serwisu oraz Administratorem danych osobowych jest: Bogumił Sekuła ul. Zielona,
+                        21-300 Radzyń Podlaski</li>
+                    <li>Adres kontaktowy poczty elektronicznej operatora: sbhouse.info@gmail.com</li>
+                    <li>Operator jest Administratorem Twoich danych osobowych w odniesieniu do danych podanych
+                        dobrowolnie w Serwisie.</li>
+                    <li>Serwis wykorzystuje dane osobowe w następujących celach:
+                        <ul>
+                            <li>zbieranie i analizowanie
+                                informacji o serwisie (ilość miesięcznych odwiedzin, skąd ruch trafia na stronę - z
+                                wyszukiwarek, z linków w social media itd.)</li>
+                        </ul>
+                    </li>
+                    <li>Serwis realizuje funkcje pozyskiwania informacji o użytkownikach i ich zachowaniu w następujący
+                        sposób:
+                        <ul>
+                            <li>Poprzez zapisywanie w urządzeniach końcowych plików cookie (tzw. „ciasteczka”).</li>
+                        </ul>
+                    </li>
+                </ol>
+                <h2>2. Wybrane metody ochrony danych stosowane przez Operatora</h2>
+                <ol>
+                    <li>Miejsca logowania i wprowadzania danych osobowych są chronione w warstwie transmisji (certyfikat
+                        SSL). Dzięki temu dane osobowe i dane logowania, wprowadzone na stronie, zostają zaszyfrowane w
+                        komputerze użytkownika i mogą być odczytane jedynie na docelowym serwerze.</li>
+                    <li>Operator okresowo zmienia swoje hasła administracyjne.</li>
+                    <li>W celu ochrony danych Operator regularnie wykonuje kopie bezpieczeństwa.</li>
+                    <li>Istotnym elementem ochrony danych jest regularna aktualizacja wszelkiego oprogramowania,
+                        wykorzystywanego przez Operatora do przetwarzania danych osobowych, co w szczególności oznacza
+                        regularne aktualizacje komponentów programistycznych.</li>
+                </ol>
+                <h2>3. Hosting</h2>
+                <ol>
+                    <li>Serwis jest hostowany (technicznie utrzymywany) na serwerach operatora: seohost</li>
+                    <li>Firma hostingowa w celu zapewnienia niezawodności technicznej prowadzi logi na poziomie serwera.
+                        Zapisowi mogą podlegać:
+                        <ul>
+                            <li>zasoby określone identyfikatorem URL (adresy żądanych zasobów – stron, plików),</li>
+                            <li>czas nadejścia zapytania,</li>
+                            <li>czas wysłania odpowiedzi,</li>
+                            <li>nazwę stacji klienta – identyfikacja realizowana przez protokół HTTP,</li>
+                            <li>informacje o błędach jakie nastąpiły przy realizacji transakcji HTTP,</li>
+                            <li>adres URL strony poprzednio odwiedzanej przez użytkownika (referer link) – w przypadku
+                                gdy przejście do Serwisu nastąpiło przez odnośnik,</li>
+                            <li>informacje o przeglądarce użytkownika,</li>
+                            <li>informacje o adresie IP,</li>
+                            <li>informacje diagnostyczne związane z procesem samodzielnego zamawiania usług poprzez
+                                rejestratory na stronie,</li>
+                            <li>informacje związane z obsługą poczty elektronicznej kierowanej do Operatora oraz
+                                wysyłanej przez Operatora.</li>
+                        </ul>
+                    </li>
+                </ol>
+                <h2>4. Twoje prawa i dodatkowe informacje o sposobie wykorzystania danych</h2>
+                <ol>
+                    <li>W niektórych sytuacjach Administrator ma prawo przekazywać Twoje dane osobowe innym odbiorcom,
+                        jeśli będzie to niezbędne do wykonania zawartej z Tobą umowy lub do zrealizowania obowiązków
+                        ciążących na Administratorze. Dotyczy to takich grup odbiorców:
+
+                        <ul>
+                            <li>osoby upoważnione przez nas, pracownicy i współpracownicy, którzy muszą mieć dostęp do
+                                danych osobowych w celu wykonywania swoich obowiązków,</li>
+                            <li>firma hostingowa,</li>
+                            <li>firmy obsługująca mailingi,</li>
+                            <li>firmy obsługująca komunikaty SMS,</li>
+                            <li>firmy, z którymi Administrator współpracuje w zakresie marketingu własnego,</li>
+                            <li>kurierzy,</li>
+                            <li>ubezpieczyciele,</li>
+                            <li>kancelarie prawne i windykatorzy,</li>
+                            <li>banki,</li>
+                            <li>operatorzy płatności,</li>
+                            <li>organy publiczne.</li>
+                        </ul>
+                    </li>
+                    <li>Twoje dane osobowe przetwarzane przez Administratora nie dłużej, niż jest to konieczne do
+                        wykonania związanych z nimi czynności określonych osobnymi przepisami (np. o prowadzeniu
+                        rachunkowości). W odniesieniu do danych marketingowych dane nie będą przetwarzane dłużej niż
+                        przez 3 lata.</li>
+                    <li>Przysługuje Ci prawo żądania od Administratora:
+                        <ul>
+                            <li>dostępu do danych osobowych Ciebie dotyczących,</li>
+                            <li>ich sprostowania,</li>
+                            <li>usunięcia,</li>
+                            <li>ograniczenia przetwarzania,</li>
+                            <li>oraz przenoszenia danych.</li>
+                        </ul>
+                    </li>
+                    <li>Przysługuje Ci prawo do złożenia sprzeciwu w zakresie przetwarzania wskazanego w pkt 3.2 wobec
+                        przetwarzania danych osobowych w celu wykonania prawnie uzasadnionych interesów realizowanych
+                        przez Administratora, w tym profilowania, przy czym prawo sprzeciwu nie będzie mogło być
+                        wykonane w przypadku istnienia ważnych prawnie uzasadnionych podstaw do przetwarzania,
+                        nadrzędnych wobec Ciebie interesów, praw i wolności, w szczególności ustalenia, dochodzenia lub
+                        obrony roszczeń.</li>
+                    <li>Na działania Administratora przysługuje skarga do Prezesa Urzędu Ochrony Danych Osobowych, ul.
+                        Stawki 2, 00-193 Warszawa.</li>
+                    <li>Podanie danych osobowych jest dobrowolne, lecz niezbędne do obsługi Serwisu.</li>
+                    <li>W stosunku do Ciebie mogą być podejmowane czynności polegające na zautomatyzowanym podejmowaniu
+                        decyzji, w tym profilowaniu w celu świadczenia usług w ramach zawartej umowy oraz w celu
+                        prowadzenia przez Administratora marketingu bezpośredniego.</li>
+                    <li>Dane osobowe nie są przekazywane od krajów trzecich w rozumieniu przepisów o ochronie danych
+                        osobowych. Oznacza to, że nie przesyłamy ich poza teren Unii Europejskiej.</li>
+                </ol>
+                <h2>5. Istotne techniki marketingowe</h2>
+                <ol>
+                    <li>Operator stosuje analizę statystyczną ruchu na stronie, poprzez Google Analytics (Google Inc. z
+                        siedzibą w USA). Operator nie przekazuje do operatora tej usługi danych osobowych, a jedynie
+                        zanonimizowane informacje. Usługa bazuje na wykorzystaniu ciasteczek w urządzeniu końcowym
+                        użytkownika. W zakresie informacji o preferencjach użytkownika gromadzonych przez sieć reklamową
+                        Google użytkownik może przeglądać i edytować informacje wynikające z plików cookies przy pomocy
+                        narzędzia: https://www.google.com/ads/preferences/</li>
+                </ol>
+                <h2>6. Informacja o plikach cookies</h2>
+                <ol>
+                    <li>Serwis korzysta z plików cookies.</li>
+                    <li>Pliki cookies (tzw. „ciasteczka”) stanowią dane informatyczne, w szczególności pliki tekstowe,
+                        które przechowywane są w urządzeniu końcowym Użytkownika Serwisu i przeznaczone są do
+                        korzystania ze stron internetowych Serwisu. Cookies zazwyczaj zawierają nazwę strony
+                        internetowej, z której pochodzą, czas przechowywania ich na urządzeniu końcowym oraz unikalny
+                        numer.</li>
+                    <li>Podmiotem zamieszczającym na urządzeniu końcowym Użytkownika Serwisu pliki cookies oraz
+                        uzyskującym do nich dostęp jest operator Serwisu.</li>
+                    <li>Pliki cookies wykorzystywane są w następujących celach:
+                        <ul>
+                            <li>realizacji celów określonych powyżej w części "Istotne techniki marketingowe";</li>
+                        </ul>
+                    </li>
+                    <li>W ramach Serwisu stosowane są dwa zasadnicze rodzaje plików cookies: „sesyjne” (session cookies)
+                        oraz „stałe” (persistent cookies). Cookies „sesyjne” są plikami tymczasowymi, które
+                        przechowywane są w urządzeniu końcowym Użytkownika do czasu wylogowania, opuszczenia strony
+                        internetowej lub wyłączenia oprogramowania (przeglądarki internetowej). „Stałe” pliki cookies
+                        przechowywane są w urządzeniu końcowym Użytkownika przez czas określony w parametrach plików
+                        cookies lub do czasu ich usunięcia przez Użytkownika.</li>
+                    <li>Oprogramowanie do przeglądania stron internetowych (przeglądarka internetowa) zazwyczaj
+                        domyślnie dopuszcza przechowywanie plików cookies w urządzeniu końcowym Użytkownika. Użytkownicy
+                        Serwisu mogą dokonać zmiany ustawień w tym zakresie. Przeglądarka internetowa umożliwia
+                        usunięcie plików cookies. Możliwe jest także automatyczne blokowanie plików cookies Szczegółowe
+                        informacje na ten temat zawiera pomoc lub dokumentacja przeglądarki internetowej.</li>
+                    <li>Ograniczenia stosowania plików cookies mogą wpłynąć na niektóre funkcjonalności dostępne na
+                        stronach internetowych Serwisu.</li>
+                    <li>Pliki cookies zamieszczane w urządzeniu końcowym Użytkownika Serwisu wykorzystywane mogą być
+                        również przez współpracujące z operatorem Serwisu podmioty, w szczególności dotyczy to firm:
+                        Google (Google Inc. z siedzibą w USA), Facebook (Facebook Inc. z siedzibą w USA), Twitter
+                        (Twitter Inc. z siedzibą w USA).</li>
+                </ol>
+                <h2>7. Zarządzanie plikami cookies – jak w praktyce wyrażać i cofać zgodę?</h2>
+                <ol>
+                    <li>Jeśli użytkownik nie chce otrzymywać plików cookies, może zmienić ustawienia przeglądarki.
+                        Zastrzegamy, że wyłączenie obsługi plików cookies niezbędnych dla procesów uwierzytelniania,
+                        bezpieczeństwa, utrzymania preferencji użytkownika może utrudnić, a w skrajnych przypadkach może
+                        uniemożliwić korzystanie ze stron www</li>
+                </ol>
+            </div>
+        </section>
     </main>
     <footer class="footer footer-fixed">
         <div class="wrapper">
@@ -67,18 +230,10 @@
             </div>
         </div>
     </footer>
-    <div class="cookie-box">
-        <div class="container">
-            <img src="dist/img/cookie.svg" alt="Ikonka ciasteczek">
-            <p class="cookie-box__alert">
-                Ta strona korzysta z plików cookie, aby zapewnić najlepszą jakość korzystania z naszej witryny. <a
-                    href="" class="cookie-box__alert-privacy">Polityka prywatności.</a>
-            </p>
-        </div>
-        <button class="cookie-box__button">Zaakceptuj</button>
-    </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="dist/js/swiper.min.js"></script>
+    <script src="dist/js/aos.min.js"></script>
     <script src="dist/js/script.min.js"></script>
 </body>
 
