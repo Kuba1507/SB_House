@@ -8,7 +8,9 @@ const yearSpan = document.querySelector(".actual-year");
 const cookieBox = document.querySelector(".cookie-box");
 const cookieBtn = document.querySelector(".cookie-box__button");
 const contactSection = document.querySelector(".contact");
+const aboutSection = document.querySelector(".about-us");
 const moveToContactBtns = document.querySelectorAll(".move-contact");
+const moveArrow = document.querySelector(".circle-arrow");
 
 const blockScroll = () => {
 	body.classList.toggle("block-scroll");
@@ -87,4 +89,7 @@ moveToContactBtns.forEach((btn) => {
 	btn.addEventListener("click", () => {
 		contactSection.scrollIntoView({ behavior: "smooth" });
 	});
+});
+moveArrow.addEventListener("click", () => {
+	aboutSection.scrollIntoView({ behavior: "smooth" });
 });
