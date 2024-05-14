@@ -129,11 +129,6 @@
 					}
 				}
 			}
-
-			// &__box {
-			// 	margin-top: 2em;
-			// 	flex-direction: row;
-			// }
 		}
 
 		.contact {
@@ -156,6 +151,20 @@
 			&__map-box {
 				margin: 0;
 				width: 350px;
+			}
+		}
+
+		.privacy {
+			h1 {
+				font-size: 4rem;
+			}
+
+			h2 {
+				font-size: 2.8rem;
+			}
+
+			ol {
+				font-size: 1.8rem;
 			}
 		}
 	}
